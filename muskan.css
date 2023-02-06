@@ -1,0 +1,303 @@
+body {
+    font-family: 'Baloo Bhai', cursive;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0px;
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 100%;
+
+    height:10vh;
+    width:100vw
+}
+.Services.img{display:flex;
+flex:row;
+justify-content: center;}
+.imgshiwali{height:25rem;
+width:25rem;
+border-radius:20px;}
+.jiacih{font-size: 1.5rem;
+padding:.8rem;
+text-align: center;}
+.main-services1{display:flex;
+flex:row;
+justify-content: space-between;
+}
+.headji{text-align: center;
+font-size:3rem;}
+.maininnerservices{margin:3rem;
+border-style: solid;
+border-color: aqua;
+border-width: 6px;
+padding:0rem;
+border-radius: 20px;
+border-bottom-width:10px ;
+}
+
+.Services-content{width:25rem;}
+
+.friend{    background: url('https://wallpapercave.com/wp/wp2294540.jpg');
+height:90vh;
+width:100%;
+background-size: cover;}
+html{
+    scroll-behavior: smooth;
+}
+.Service-heading{display: flex;
+flex:row;
+justify-content: center;}
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+ 
+.left img {
+    width: 70px;
+    border-radius: 100px;
+    filter: invert(100%);
+}
+ 
+.left div {
+    line-height: 19px;
+    font-size: 26px;
+    text-align: center;
+}
+ 
+.mid {
+    display: block;
+    width: 60%;
+    margin: 29px auto;
+    /* border: 2px solid green; */
+}
+ 
+.right {
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+ 
+.navbar {
+    display: inline-block;
+}
+ 
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+ 
+.navbar li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 15px;
+ 
+}
+ 
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(33, 22, 22);
+ 
+}
+ 
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+ 
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+}
+ 
+main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .left-sec{
+    padding-left: 100px;
+}
+.left-sec h2{
+    font-size :30px;
+    text-transform: capitalize;
+    text-decoration: dashed;
+    font-weight: lighter;
+    color: rgb(37, 29, 25);
+    margin-top: 100px;
+}
+.left-sec h1{
+    font-size: 65px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin: 12px;
+    
+}
+.left-sec p{
+    margin-bottom: 15px;
+}
+button{
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    background-color: black;
+    margin: 0px 9px;
+    padding: 4px 14px;
+    font-size: 20px;
+}
+button :hover{
+background-color: rgb(31, 30, 30);
+}
+ 
+.menu icons div{
+    color: white;
+    font-size: zero;
+    margin-left: 1rem;
+}
+
+
+
+
+
+
+@media (max-width:768px){
+ 
+    html{
+        font-size: 55%;
+    }
+    header{
+        padding: 2rem;
+ 
+}
+ 
+}
+    border: 2px solid rgb(235, 6, 6);
+.container{
+ 
+}
+ 
+    flex
+.main-inner-services{
+ 
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+.main-services{
+}
+     color: rgb(83, 187, 247);
+.Service-heading h1 span{
+ 
+}
+[]
+    padding-bottom: 3rem;
+    font-size: 40px;
+    text-align: center;
+.Service-heading h1{
+ 
+}
+    background-color: var(--background);
+    width: 100%;
+    padding: 2rem 7%;
+.Services{
+ 
+}
+ 
+}
+.our-experts{
+padding: 3rem 7%;
+width: 100%;
+margin-top: 110rem;
+
+}
+.expert-heading{
+    text-align: center;
+
+}
+.expert-heading h1{
+    font-size: 40px;
+
+}
+.expert-heading h1 span{
+    color: rgb(36, 215, 215);
+}
+.maindoctor{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.innerdoctor{
+    flex: 1 1 300px;
+
+}
+.innerdoctor1 img{
+width: 25%;
+}
+
+.innerdoctor2 img{
+    height: 25%;
+    width: 25%;
+
+
+}
+.doc-icons div{
+    font-size: 2rem;
+    color: var(--mainclr);
+    background: rgb(180, 228, 241);
+    border: 2px solid black;
+    margin-left: 2rem;
+    width: 4rem;
+    height: 4rem;
+    line-height: 5rem;
+    text-align: center;
+
+}
+.about-us{
+    background: url(about-us.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 60vh;
+    padding: 100px;
+    
+}
+.about-us h1{
+    font-weight: 50px;
+   color: rgb(0, 0, 0);
+   font-weight: bold;
+   font-size: 1.6em;
+}
+
+
+
+.about-us h2{
+    font-weight: 20px;
+   color: rgb(56, 29, 109);
+}
+.about-us p{
+    font-weight: lighter;
+}
+.about-us button{
+    text-align: center;
+    font-size: 14px;
+    background-color: rgb(223, 33, 33);
+    color: white
+    border-radius: 5px;
+}
+.divcontainer{
+    background: url(contact.webp);
+    margin-top: 60rem;
+}
